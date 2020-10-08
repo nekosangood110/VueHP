@@ -23,7 +23,16 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  routes
+  routes: [
+    {
+      path: '',
+      component: 
+    },
+    {
+      path: '',
+      component:
+    }
+  ]
 })
 
 export default router
