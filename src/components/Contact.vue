@@ -1,18 +1,16 @@
 <template>
-<div class="contact">
-    
+<div class="Contact">
+    Contact
+</div>
+
 </template>
 
 <script>
-export default {
-    name: 'Contact',
-    data() {
-        return {
-
-        }
-    }
-}
 </script>
+
+
+
+
 
 <style scoped>
 

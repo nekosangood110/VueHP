@@ -1,22 +1,27 @@
 <template>
 <div id="app">
-  <tab-menu></tab-menu>
+  <my-header></my-header>
   <router-view/>
 </div>
 </template>
 
 
 <script>
-import TabMenu from '@/components/TabMenu'
+import MyHeader from '@/components/MyHeader'
 
 export default {
   name: 'App',
   components: {
-    TabMenu
+    MyHeader
   }
 }
 </script>
 
 <style>
-
+body {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+   /* font-family: ; */
+}
 </style>

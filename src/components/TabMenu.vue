@@ -2,21 +2,22 @@
   <div>
     <ol>
       <li v-for="(item, index) in items" :key="index">
-        <roter-link v-bind:to="item.path">
+        <router-link v-bind:to="item.path">
           {{ item.title }}
-        </roter-link>
+        </router-link>
       </li>
     </ol>
   </div>
 </template>
 
+
 <script>
 export default {
-  name: 'TavMenu',
+  name: 'TabMenu',
   data () {
     return {
       items: [
-        { title: 'top', path: '/' },
+        { title: 'home', path: '/' },
         { title: 'profile', path: '/profile' },
         { title: 'contact', path: '/contact' }
       ]
@@ -35,21 +36,23 @@ ol {
 }
 
 li {
-  padding: 20px;
+  padding: 15px;
   text-align: center;
   margin: 0 30px;
-  width: 480px;
-  font-size: 25px;
-  /* font-family: Arial, Helvetica, sans-serif; */
+  width: 160px;
+  height: 0 20px;
+  font-size: 17px;
   border-radius: 9px;
   color: #ffffff;
-  background-color: #99aabf;
+  background-color: #D99B96;
+  
 }
 li:hover {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 /* router-linkの部分 */
-/* a {
-  color: #757575;
-} */
+ a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
 </style>
