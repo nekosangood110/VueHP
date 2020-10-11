@@ -1,4 +1,5 @@
 <template>
+<!-- topのページここにかいてる -->
 <div class="Contact">
     Contact
 </div>

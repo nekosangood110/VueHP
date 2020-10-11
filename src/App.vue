@@ -8,11 +8,12 @@
 
 <script>
 import MyHeader from '@/components/MyHeader'
+// import Profile from '@/components/Profile'
 
 export default {
   name: 'App',
   components: {
-    MyHeader
+    MyHeader,
   }
 }
 </script>

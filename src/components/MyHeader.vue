@@ -1,7 +1,7 @@
 <template>
-  <header>
-    <div>chika's page.</div>
-    <div>
+  <div class="header">
+    <h1>Chika's page.</h1>
+    <nav>
       <ol>
         <li v-for="(item, index) in items" :key="index">
           <router-link v-bind:to="item.path">
@@ -9,8 +9,8 @@
           </router-link>
         </li>
       </ol>
-    </div>
-  </header>
+    </nav>
+  </div>
 </template>
 
 <script>
@@ -29,32 +29,35 @@ export default {
 </script>
 
 <style scoped>
-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
+ * {
+   margin: 0;
+   padding: 0;
+}
+.header {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  padding: 30px 0;
   background-color: #8197a6;
   color: #ffffff;
-  padding: 10px 0 0 30px;
-  margin-bottom: 0;
-  font-size: 23px;
 }
-
+h1 {
+  padding-left: 40px;
+}
+nav {
+  margin-left: auto;
+}
 ol {
-  display: flex;
-  /* align-items: center; */
-  padding: 0 40px 0 0;
-  margin: 0 0 0 15px;
   list-style: none;
+  margin: auto 40px auto 0;
+  padding: 10px 0;
+
 }
 
 li {
-  padding: 0 10px;
-  text-align: center;
-  height: 0 20px;
-  font-size: 17px;
-  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 18px;
   color: #ffffff;
+
 }
 li:hover {
   opacity: 0.6;
