@@ -1,28 +1,34 @@
 <template>
-<div id="app">
-  <my-header></my-header>
-  <router-view/>
-</div>
+  <div id="app">
+    <my-header></my-header>
+    <router-view />
+    <my-footer></my-footer>
+  </div>
 </template>
 
 
 <script>
-import MyHeader from '@/components/MyHeader'
+import MyHeader from "@/components/MyHeader";
+import MyFooter from "@/components/MyFooter";
 // import Profile from '@/components/Profile'
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     MyHeader,
-  }
-}
+    MyFooter,
+  },
+};
 </script>
 
 <style>
-body {
+  body {
   margin: 0;
-  padding:0;
+  padding: 0;
   box-sizing: border-box;
-   /* font-family: ; */
-}
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  }
 </style>
+  

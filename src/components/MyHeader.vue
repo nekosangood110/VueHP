@@ -38,7 +38,7 @@ export default {
   height: 60px;
   align-items: center;
   padding: 30px 0;
-  background-color: #8197a6;
+  background: linear-gradient(-100deg, #8197A6, #F2D1C9);
   color: #ffffff;
 }
 h1 {

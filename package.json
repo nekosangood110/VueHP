@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "core-js": "^3.6.5",
     "firebase": "^7.23.0",
     "vue": "^2.6.11",
