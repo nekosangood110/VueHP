@@ -32,6 +32,7 @@ h2{
   color: #8197A6;
   border-bottom: solid 2px #8197A6;
   margin-bottom: 80px;
+  font-weight: 400;
 }
 .contents {
   margin-left: 250px;

@@ -10,7 +10,6 @@
 <script>
 import MyHeader from "@/components/MyHeader";
 import MyFooter from "@/components/MyFooter";
-// import Profile from '@/components/Profile'
 
 export default {
   name: "App",
