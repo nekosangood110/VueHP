@@ -13,7 +13,9 @@
           <li><span class="">Birth:</span> 2001-03-14</li>
           <li><span class="">Hobby:</span> Cafe-hopping, Ride a bike</li>
         </ul>
-        <p></p>
+        <div class="skills">
+          <p><v-icon name="beer"/></p>
+        </div>
       </div>
     </div>
   </div>

@@ -2,7 +2,7 @@
 <div>
     <section>
         <div id="container">
-            <div class="home-title">Welcome</div>
+            <div class="home-title">Thank you for visiting this page!</div>
             <div class="cover-slide inview">
                 <img src="@/assets/img2.jpg"/>
             </div>
@@ -28,9 +28,6 @@ export default {
 </script>
 
 <style scoped>
-/* .container {
-    display: flex;
-} */
 .home-title {
     color: #8197A6;
     font-size: 38px;
@@ -40,13 +37,13 @@ export default {
 img {
     max-width: 100%;
     text-align: bottom;
-    padding-left: 270px;
     
 
 }
 .cover-slide {
   position: relative;
   overflow: hidden;
+  text-align: center;
 }
 
 .cover-slide::after {
@@ -59,78 +56,5 @@ img {
   bottom: 0;
   background-color: #eaebe6;
   opacity: 0;
-}
-
-.cover-slide.inview::after {
-  opacity: 1;
-  -webkit-animation-name: kf-cover-slide;
-          animation-name: kf-cover-slide;
-  -webkit-animation-duration: 1.6s;
-          animation-duration: 1.6s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-direction: normal;
-          animation-direction: normal;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes kf-cover-slide {
-  0% {
-    -webkit-transform-origin: left;
-            transform-origin: left;
-    -webkit-transform: scaleX(0);
-            transform: scaleX(0);
-  }
-  50% {
-    -webkit-transform-origin: left;
-            transform-origin: left;
-    -webkit-transform: scaleX(1);
-            transform: scaleX(1);
-  }
-  50.1% {
-    -webkit-transform-origin: right;
-            transform-origin: right;
-    -webkit-transform: scaleX(1);
-            transform: scaleX(1);
-  }
-  100% {
-    -webkit-transform-origin: right;
-            transform-origin: right;
-    -webkit-transform: scaleX(0);
-            transform: scaleX(0);
-  }
-}
-
-@keyframes kf-cover-slide {
-  0% {
-    -webkit-transform-origin: left;
-            transform-origin: left;
-    -webkit-transform: scaleX(0);
-            transform: scaleX(0);
-  }
-  50% {
-    -webkit-transform-origin: left;
-            transform-origin: left;
-    -webkit-transform: scaleX(1);
-            transform: scaleX(1);
-  }
-  50.1% {
-    -webkit-transform-origin: right;
-            transform-origin: right;
-    -webkit-transform: scaleX(1);
-            transform: scaleX(1);
-  }
-  100% {
-      opacity: 1;
-    -webkit-transform-origin: right;
-            transform-origin: right;
-    -webkit-transform: scaleX(0);
-            transform: scaleX(0);
-  }
 }
 </style>
