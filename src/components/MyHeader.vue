@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <h1>Chika's page.</h1>
+    <h1><i class="fas fa-heart faa-pulse animated"></i>&nbsp;Chika's page.</h1>
     <nav>
       <ol>
         <li v-for="(item, index) in items" :key="index">
@@ -43,6 +43,7 @@ export default {
 }
 h1 {
   padding-left: 40px;
+  font-weight: 100;
 }
 nav {
   margin-left: auto;

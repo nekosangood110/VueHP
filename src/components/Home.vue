@@ -7,11 +7,7 @@
                 <img src="@/assets/img2.jpg"/>
             </div>
                 <div class="home-text">
-                    <p>ここに文字をいれる</p>
-                    <p>ここに文字をいれる</p>
-                    <p>ここに文字をいれる</p>
-                    <p>ここに文字をいれる</p>
-                    <p>ここに文字をいれる</p>
+                        
                 </div>
         </div>
     </section>
