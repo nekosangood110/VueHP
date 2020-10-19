@@ -1,27 +1,27 @@
 <template>
-  <div id="app">
+  <div>
     <my-header></my-header>
-    <router-view />
-    <my-footer></my-footer>
+      <router-view />
+      <my-footer></my-footer>
+      
   </div>
 </template>
 
-
 <script>
-import MyHeader from "@/components/MyHeader";
-import MyFooter from "@/components/MyFooter";
-
-// import 'vue-awesome/icons'
-// import Icon from 'vue-awesome/components/Icon'
-// Vue.component('v-icon', Icon)
-
+import MyHeader from '@/components/MyHeader'
+import MyFooter from '@/components/MyFooter'
 export default {
   name: "App",
   components: {
     MyHeader,
     MyFooter,
   },
-};
+  data() {
+    return {
+
+    }
+  }
+}
 </script>
 
 <style>
@@ -36,4 +36,3 @@ body {
   font-family: "M PLUS 1p", sans-serif;
 }
 </style>
-  

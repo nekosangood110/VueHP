@@ -19,7 +19,7 @@
         </div>
         <div class="sns">
           <div class="sns-title">SNS</div>
-            <i class="fab fa-github"></i>
+            <a href="http://www.google.com" target="_blank"><i class="fab fa-github"></i></a>
             <i class="fab fa-twitter"></i>
         </div>
         <div class="skill">
@@ -84,11 +84,6 @@ span.profile-space {
 .sns-title {
   color:  #8197a6;
   font-size: 24px;
-}
-img:hover {
-  transform: rotate(360deg);
-  transition-duration: 2s;
-  
 }
 span {
   margin: 0 10px;
