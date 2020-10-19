@@ -1,56 +1,57 @@
 <template>
-<div>
-    <section>
-        <div id="container">
-            <div class="home-title">Thank you for visiting this page!</div>
-            <div class="cover-slide inview">
-                <img src="@/assets/img2.jpg"/>
-            </div>
-                <div class="home-text">
-                        
-                </div>
-        </div>
-    </section>
-</div>
+  <div>
+    <div class="TextAnime1">
+      <span
+        v-for="(t, index) in text"
+        :key="index"
+        class="item"
+        :style="{ animationDelay: index * 100 + 'ms' }"
+        v-text="t"
+      />
+    </div>
+    <div class="slide-images">
+    <img src="@/assets/slide-image1.jpg" />
+    </div>
+    <div class="home-text">ここに文字をいれる</div>
+  </div>
 </template>
 
 <script>
 export default {
-    name: "Home",
-    data () {
-        
-    }
+  name: "Home",
+  data() {
+    return {
+      text: "Thank you for visiting this page!",
+    };
+  },
 };
 </script>
 
 <style scoped>
-.home-title {
+.TextAnime1 {
     color: #8197A6;
-    font-size: 38px;
     text-align: center;
     padding: 40px 0 20px 0;
 }
+@keyframes text-in {
+  0% {
+    transform: translate(0, -20px);
+    opacity: 0;
+  }
+}
+
+.item {
+  display: inline-block;
+  min-width: 0.3em;
+  font-size: 45px;
+  animation: text-in 0.4s cubic-bezier(0.22, 0.15, 0.25, 1.43) 0s backwards;
+}
+.slide-images {
+    text-align: center;
+}
 img {
-    max-width: 100%;
-    text-align: bottom;
-    
-
-}
-.cover-slide {
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-}
-
-.cover-slide::after {
-  content: "";
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #eaebe6;
-  opacity: 0;
+  max-width: 100%;
+  text-align: bottom;
+  
 }
 </style>

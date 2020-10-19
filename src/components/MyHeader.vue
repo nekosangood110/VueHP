@@ -39,11 +39,14 @@ export default {
   align-items: center;
   padding: 48px 0;
   background: linear-gradient(-100deg, #8197A6, #F2D1C9);
+  box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.3);
+
   color: #ffffff;
 }
 h1 {
   padding-left: 40px;
   font-weight: 100;
+  letter-spacing: 2px;
 }
 nav {
   margin-left: auto;
@@ -68,4 +71,5 @@ a {
   text-decoration: none;
   color: #ffffff;
 }
+  
 </style>

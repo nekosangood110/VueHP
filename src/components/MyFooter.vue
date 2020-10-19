@@ -20,6 +20,7 @@ export default {
 <style scoped>
 .footer {
   background: linear-gradient(-100deg, #8197A6, #F2D1C9);
+  box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.3);
   margin-top: auto;
   align-items: flex-end;
   padding: 30px 0;
@@ -27,7 +28,7 @@ export default {
 .copyright p {
   margin: 0;
   color: #FFFFFF;
-  font-size: 15px;
+  font-size: 16px;
   text-align: center;
 
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="contents">
+  <div class="contents">   
     <div class="profile">
       <h1>About</h1>
       <div class="img_wrap">
@@ -22,8 +22,14 @@
             <i class="fab fa-github"></i>
             <i class="fab fa-twitter"></i>
         </div>
-
+        <div class="skill">
         <div class="skill-title">skill</div>
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-css3-alt"></i>
+        <i class="fab fa-sass"></i>
+        <i class="fab fa-vuejs"></i>
+        <i class="fab fa-js-square"></i>
+        </div>
       </div>
     </div>
   </div>
@@ -93,5 +99,8 @@ span {
   color: #8197a6;
   margin: 0 10px;
 }
-
+.far {
+  font-size: 60px;
+  color: #463E44;
+}
 </style>
