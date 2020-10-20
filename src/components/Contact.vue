@@ -1,65 +1,59 @@
 <template>
-
-<v-app>
-        <v-toolbar app>
-          <v-spacer></v-spacer>
-        </v-toolbar>
-        <v-content>
-          <div>
-    <v-card>
-      <v-container>
-        <h2>お問い合わせ</h2>
-        <v-form
-          ref="form"
-          v-model="contactFormValidation.valid"
-          lazy-validation
+  <v-app>
+    <v-content>
+      <div>
+        <v-card>
+          <v-container>
+            <h2>お問い合わせ</h2>
+            <v-form
+              ref="form"
+              v-model="contactFormValidation.valid"
+              lazy-validation
+            >
+              <v-text-field
+                v-model="contactForm.name"
+                :rules="contactFormValidation.nameRules"
+                label="名前"
+                required
+              ></v-text-field>
+              <v-text-field
+                v-model="contactForm.email"
+                :rules="contactFormValidation.emailRules"
+                label="メールアドレス"
+                required
+              ></v-text-field>
+              <v-textarea
+                v-model="contactForm.contents"
+                :rules="contactFormValidation.contentsRules"
+                label="内容"
+                required
+              ></v-textarea>
+              <v-btn
+                :loading="contactForm.loading"
+                :disabled="!contactFormValidation.valid"
+                @click="sendMail()"
+                block
+                large
+                color="blue-grey lighten-2"
+                class="mt-6 font-weight-bold"
+                >送信
+              </v-btn>
+            </v-form>
+          </v-container>
+        </v-card>
+        <v-snackbar
+          v-model="snackBar.show"
+          :color="snackBar.color"
+          bottom
+          right
+          :timeout="6000"
+          class="font-weight-bold"
         >
-          <v-text-field
-            v-model="contactForm.name"
-            :rules="contactFormValidation.nameRules"
-            label="名前"
-            required
-          ></v-text-field>
-          <v-text-field
-            v-model="contactForm.email"
-            :rules="contactFormValidation.emailRules"
-            label="メールアドレス"
-            required
-          ></v-text-field>
-          <v-textarea
-            v-model="contactForm.contents"
-            :rules="contactFormValidation.contentsRules"
-            label="内容"
-            required
-          ></v-textarea>
-          <v-btn
-            :loading="contactForm.loading"
-            :disabled="!contactFormValidation.valid"
-            @click="sendMail()"
-            block
-            large
-            color="info"
-            class="mt-4 font-weight-bold"
-            >送信
-          </v-btn>
-        </v-form>
-      </v-container>
-    </v-card>
-    <v-snackbar
-      v-model="snackBar.show"
-      :color="snackBar.color"
-      bottom
-      right
-      :timeout="6000"
-      class="font-weight-bold"
-    >
-      {{ snackBar.message }}
-    </v-snackbar>
-  </div>
-        </v-content>
-      </v-app>
-
-  
+          {{ snackBar.message }}
+        </v-snackbar>
+      </div>
+    </v-content>
+  </v-app>
 </template>
 
 <script>
@@ -86,7 +80,7 @@ export default {
     },
   }),
   methods: {
-    sendMail: function() {
+    sendMail: function () {
       if (this.$refs.form.validate()) {
         this.contactForm.loading = true;
         const mailer = functions.httpsCallable("sendMail");
@@ -111,16 +105,21 @@ export default {
           });
       }
     },
-    showSnackBar: function(color, message) {
+    showSnackBar: function (color, message) {
       this.snackBar.message = message;
       this.snackBar.color = color;
       this.snackBar.show = true;
     },
-    formReset: function() {
+    formReset: function () {
       this.$refs.form.reset();
     },
   },
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+h2 {
+  letter-spacing: 2px;
+  text-align: center;
+}
+</style>

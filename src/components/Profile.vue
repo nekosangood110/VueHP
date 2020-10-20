@@ -73,6 +73,9 @@ ul {
 .sns {
   margin-bottom: 20px;
 }
+.skill {
+  margin-bottom: 80px;
+}
 .skill-title {
   color: #8197a6;
   font-size: 24px;
