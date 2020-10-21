@@ -37,8 +37,7 @@
 
 <script>
 export default {
-  name: "Profile",
-  data() {},
+  name: "Profile"
 };
 </script>
 
