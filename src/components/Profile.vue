@@ -19,7 +19,7 @@
         </div>
         <div class="sns">
           <div class="sns-title">SNS</div>
-            <a href="http://www.google.com" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://github.com/nekosangood110" target="_blank"><i class="fab fa-github"></i></a>
             <i class="fab fa-twitter"></i>
         </div>
         <div class="skill">
