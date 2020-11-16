@@ -4,7 +4,8 @@
       <div>
         <v-card>
           <v-container>
-            <h2>お問い合わせ</h2>
+            <h2>Contact</h2>
+            <p>ご意見・お問い合わせ</p>
             <v-form
               ref="form"
               v-model="contactFormValidation.valid"
@@ -12,18 +13,21 @@
             >
               <v-text-field
                 v-model="contactForm.name"
+                color="blue-grey lighten-2"
                 :rules="contactFormValidation.nameRules"
                 label="名前"
                 required
               ></v-text-field>
               <v-text-field
                 v-model="contactForm.email"
+                color="blue-grey lighten-2"
                 :rules="contactFormValidation.emailRules"
                 label="メールアドレス"
                 required
               ></v-text-field>
               <v-textarea
                 v-model="contactForm.contents"
+                color="blue-grey lighten-2"
                 :rules="contactFormValidation.contentsRules"
                 label="内容"
                 required
@@ -119,7 +123,14 @@ export default {
 
 <style scoped>
 h2 {
+  margin-top: 18px;
   letter-spacing: 2px;
   text-align: center;
+  font-weight: 200;
+  color: #8197A6;
+}
+ p{
+  text-align: center;
+  color: #8197A6;
 }
 </style>

@@ -12,7 +12,6 @@
     <div class="slide-images">
     <img src="@/assets/slide-image1.jpg" />
     </div>
-    <div class="home-text">ここに文字をいれる</div>
   </div>
 </template>
 

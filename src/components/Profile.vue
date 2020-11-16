@@ -1,34 +1,36 @@
 <template>
-  <div class="contents">   
+  <div class="contents">
     <div class="profile">
       <h1>About</h1>
       <div class="img_wrap">
-        <p><img src="@/assets/img1.jpg"/></p>
+        <p><img src="@/assets/img1.jpg" /></p>
       </div>
       <div class="about">
         <div class="my-profile">
-        <div class="my-profile-title">profile</div>
-        <ul>
-          <li><span class="profile-space">Name:</span> Chikako Ono</li>
-          <li><span class="profile-space">Birthplace:</span> Nara</li>
-          <li><span class="profile-space">Birth:</span> 2001-03-14</li>
-          <li>
-            <span class="profile-space">Hobby:</span> Cafe-hopping, Ride a bike
-          </li>
-        </ul>
+          <div class="my-profile-title">profile</div>
+          <ul>
+            <li><span class="profile-space">Name:</span> Chikako Ono</li>
+            <li><span class="profile-space">Birthplace:</span> Nara</li>
+            <li><span class="profile-space">Birth:</span> 2001-03-14</li>
+            <li><span class="profile-space">Hobby:</span> Cafe-hopping, Ride a bike</li>
+          </ul>
+              <p>フロントエンジニア志望です！</p>
+              <p>最近はVueが楽しくてお気に入り...</p>
         </div>
         <div class="sns">
           <div class="sns-title">SNS</div>
-            <a href="http://www.google.com" target="_blank"><i class="fab fa-github"></i></a>
-            <i class="fab fa-twitter"></i>
+          <a href="http://www.google.com" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://twitter.com/?lang=ja" target="_blank"><i class="fab fa-twitter"></i></a>
         </div>
         <div class="skill">
-        <div class="skill-title">skill</div>
-        <i class="fab fa-html5"></i>
-        <i class="fab fa-css3-alt"></i>
-        <i class="fab fa-sass"></i>
-        <i class="fab fa-vuejs"></i>
-        <i class="fab fa-js-square"></i>
+          <div class="skill-title">skill</div>
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-sass"></i>
+          <i class="fab fa-vuejs"></i>
+          <i class="fab fa-js-square"></i>
         </div>
       </div>
     </div>
@@ -37,7 +39,7 @@
 
 <script>
 export default {
-  name: "Profile"
+  name: "Profile",
 };
 </script>
 
@@ -45,7 +47,7 @@ export default {
 h1 {
   color: #8197a6;
   border-bottom: solid 2px #8197a6;
-  margin: 30px 0 80px 0;
+  margin: 30px;
   font-weight: 400;
 }
 .contents {
@@ -63,14 +65,14 @@ img {
 }
 ul {
   list-style: none;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .my-profile-title {
   color: #8197a6;
   font-size: 24px;
 }
 .sns {
-  margin-bottom: 20px;
+  margin: 20px 0 20px 0;
 }
 .skill {
   margin-bottom: 80px;
@@ -84,12 +86,11 @@ span.profile-space {
 }
 
 .sns-title {
-  color:  #8197a6;
+  color: #8197a6;
   font-size: 24px;
 }
 span {
   margin: 0 10px;
-
 }
 .fab {
   font-size: 3em;
@@ -98,6 +99,6 @@ span {
 }
 .far {
   font-size: 60px;
-  color: #463E44;
+  color: #463e44;
 }
 </style>
