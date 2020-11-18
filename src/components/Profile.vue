@@ -19,10 +19,8 @@
         </div>
         <div class="sns">
           <div class="sns-title">SNS</div>
-          <a href="http://www.google.com" target="_blank"
-            ><i class="fab fa-github"></i
-          ></a>
-          <a href="https://twitter.com/?lang=ja" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://twitter.com/?lang=ja" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/nekosangood110" target="_blank"><i class="fab fa-github"></i></a>
         </div>
         <div class="skill">
           <div class="skill-title">skill</div>

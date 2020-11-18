@@ -38,7 +38,7 @@
                 @click="sendMail()"
                 block
                 large
-                color="blue-grey lighten-2"
+                color="blue-grey lighten-4"
                 class="mt-6 font-weight-bold"
                 >送信
               </v-btn>
