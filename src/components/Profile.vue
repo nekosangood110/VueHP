@@ -15,7 +15,7 @@
             <li><span class="profile-space">Hobby:</span> Cafe-hopping, Ride a bike</li>
           </ul>
               <p>フロントエンジニア志望です！</p>
-              <p>最近はVueが楽しくてお気に入り...</p>
+              <p>最近はPhotoshopやVueが楽しくてお気に入り...</p>
         </div>
         <div class="sns">
           <div class="sns-title">SNS</div>
@@ -27,8 +27,8 @@
           <i class="fab fa-html5"></i>
           <i class="fab fa-css3-alt"></i>
           <i class="fab fa-sass"></i>
-          <i class="fab fa-vuejs"></i>
           <i class="fab fa-js-square"></i>
+          <i class="fab fa-vuejs"></i>
         </div>
       </div>
     </div>

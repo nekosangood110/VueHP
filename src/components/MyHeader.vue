@@ -29,17 +29,34 @@ export default {
 </script>
 
 <style scoped>
- * {
-   margin: 0;
-   padding: 0;
+
+@media screen and (max-width: 896px) {
+  .header {
+    padding: 48px 0;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header {
+    padding: 48px 0;
+    height: 120px;
+  }
+}
+  h1 {
+    padding-left: 0px;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
 }
 .header {
   display: flex;
-  height: 60px;
   align-items: center;
   padding: 48px 0;
-  background: linear-gradient(-100deg, #8197A6, #F2D1C9);
-  box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.3);
+  height: 50px;
+  background: linear-gradient(-100deg, #8197a6, #f2d1c9);
+  box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.3);
 
   color: #ffffff;
 }
@@ -54,14 +71,14 @@ nav {
 ol {
   list-style: none;
   margin: auto 40px auto 0;
+  
+  
   padding: 10px 0;
-
 }
 
 li {
   font-size: 18px;
   color: #ffffff;
-
 }
 li:hover {
   opacity: 0.6;
@@ -71,5 +88,4 @@ a {
   text-decoration: none;
   color: #ffffff;
 }
-  
 </style>
