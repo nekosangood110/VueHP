@@ -1,5 +1,5 @@
 <template>
-  <div class="contents">
+  <div class="v-application--wrap">
     <div class="profile">
       <h1>About</h1>
       <div class="img_wrap">
@@ -12,10 +12,12 @@
             <li><span class="profile-space">Name:</span> Chikako Ono</li>
             <li><span class="profile-space">Birthplace:</span> Nara</li>
             <li><span class="profile-space">Birth:</span> 2001-03-14</li>
-            <li><span class="profile-space">Hobby:</span> Cafe-hopping, Ride a bike</li>
+            <li><span class="profile-space">Hobby:</span>Ride a bike, coffe hop</li>
           </ul>
-              <p>フロントエンジニア志望です！</p>
-              <p>最近はPhotoshopやVueが楽しくてお気に入り...</p>
+              <p>フロントエンジニア志望です！<br>
+             最近はphotoshopやVueが楽しくてお気に入りです。
+             
+             </p>
         </div>
         <div class="sns">
           <div class="sns-title">SNS</div>
@@ -42,6 +44,27 @@ export default {
 </script>
 
 <style scoped>
+@media screen and (min-width:0px){
+  /*0px以上で適用する内容*/
+ .v-application--wrap{
+   width: 90%;
+  margin:auto;
+  padding-top:5px;
+ }
+}
+
+@media screen and (min-width:300px){
+  /*300px以上で適用する内容*/
+  .v-application--wrap {
+   width: 90%;
+    margin:auto;
+  padding-top:5px;
+ }
+}
+
+div {
+  width: 100%;
+}
 h1 {
   color: #8197a6;
   border-bottom: solid 2px #8197a6;

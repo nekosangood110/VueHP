@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <v-content>
     <div class="TextAnime1">
       <span
         v-for="(t, index) in text"
@@ -9,10 +9,11 @@
         v-text="t"
       />
     </div>
-    <div class="slide-images">
+    <div class="top-images">
     <img src="@/assets/slide-image1.jpg" />
     </div>
-  </div>
+    
+  </v-content>
 </template>
 
 <script>
@@ -45,7 +46,7 @@ export default {
   font-size: 45px;
   animation: text-in 0.4s cubic-bezier(0.22, 0.15, 0.25, 1.43) 0s backwards;
 }
-.slide-images {
+.top-images {
     text-align: center;
 }
 img {
