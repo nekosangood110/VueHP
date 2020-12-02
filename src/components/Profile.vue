@@ -12,7 +12,7 @@
             <li><span class="profile-space">Name:</span> Chikako Ono</li>
             <li><span class="profile-space">Birthplace:</span> Nara</li>
             <li><span class="profile-space">Birth:</span> 2001-03-14</li>
-            <li><span class="profile-space">Hobby:</span>Ride a bike, coffe hop</li>
+            <li><span class="profile-space">Hobby:</span>Ride a bike, coffee hop</li>
           </ul>
               <p>フロントエンジニア志望です！<br>
              最近はphotoshopやVueが楽しくてお気に入りです。
