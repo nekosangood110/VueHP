@@ -84,7 +84,6 @@ body {
   align-items: center;
   height: 50px; 
   background: linear-gradient(-100deg, #8197a6, #f2d1c9);
-  box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.3);
   color: #ffffff;
 }
 h1 {
