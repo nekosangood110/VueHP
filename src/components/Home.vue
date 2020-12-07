@@ -13,26 +13,31 @@
       <img src="@/assets/slide-image1.jpg"  />
     </div>
     <!-- 作品はここから -->
-    <v-card-text style="font-size: 2em" class="text-center my-13">My works </v-card-text>
+    <v-card-text style="font-size: 2em" class="blue-grey--text text--lighten-2 text-center my-13">My works</v-card-text>
 
     <v-container>
-      <v-row justify="center" align-content="center">
+      <v-row justify="center">
         <v-col cols="12" sm="6" md="4" lg="4">
-          <img src="@/assets/work-linebot1.jpg" justify="center" />
+          <v-layout justify-center>
+            <img src="@/assets/work-linebot1.jpg"  />
+          </v-layout>
           <v-dialog>a</v-dialog>
-          <p  style="font-size: 1.5em" class="text-center mt-3">ねこさんbot</p>
+          <p  style="font-size: 1.3em" class="blue-grey--text text--lighten-2 text-center mt-3">ねこさんbot</p>
         </v-col>
 
         <v-col cols="12" sm="6" md="4" lg="4">
-          <img src="@/assets/work-todo1.jpg" justify="center" />
-          <p  style="font-size: 1.3em" class="text-center mt-3">Todolist</p>
+          <v-layout justify-center>
+          <img src="@/assets/work-todo1.jpg"  />
+          </v-layout>
+          <p  style="font-size: 1.3em" class="blue-grey--text text--lighten-2 text-center mt-3">Todolist</p>
         </v-col>
 
         <v-col cols="12" sm="6" md="4" lg="4">
-          <img src="@/assets/work-mysite1.jpg" justify="center" />
-          <p  style="font-size: 1.5em" class="text-center mt-3">Mysite</p>
+          <v-layout justify-center>
+          <img src="@/assets/work-mysite1.jpg"  />
+          </v-layout>
+          <p  style="font-size: 1.3em" class="blue-grey--text text--lighten-2 text-center mt-3">Mysite</p>
         </v-col>
-
       </v-row>
     </v-container>
   </v-app>

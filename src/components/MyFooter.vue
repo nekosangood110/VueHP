@@ -19,4 +19,7 @@ export default {
   margin-top: auto;
   text-align: center;
 }
+div.v-application--wrap {
+    min-height: 100%;
+}
 </style>

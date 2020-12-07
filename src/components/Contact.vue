@@ -39,7 +39,7 @@
                 block
                 large
                 color="blue-grey lighten-4"
-                class="mt-6 font-weight-bold"
+                class="my-9 font-weight-bold"
                 >送信
               </v-btn>
             </v-form>
