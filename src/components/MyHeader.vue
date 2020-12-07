@@ -83,7 +83,7 @@ body {
   display: flex;
   align-items: center;
   height: 50px; 
-  background: linear-gradient(-100deg, #8197a6, #f2d1c9);
+  background: linear-gradient(-100deg, #90A4AE, #FFCDD2);
   color: #ffffff;
 }
 h1 {

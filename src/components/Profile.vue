@@ -65,8 +65,8 @@ div {
   width: 100%;
 }
 h1 {
-  color: #8197a6;
-  border-bottom: solid 2px #8197a6;
+  color: #90A4AE;
+  border-bottom: solid 2px #90A4AE;
   margin: 30px;
   font-weight: 400;
 }
@@ -88,7 +88,7 @@ ul {
   margin-bottom: 30px;
 }
 .my-profile-title {
-  color: #8197a6;
+  color: #90A4AE;
   font-size: 24px;
 }
 .sns {
@@ -98,7 +98,7 @@ ul {
   margin-bottom: 80px;
 }
 .skill-title {
-  color: #8197a6;
+  color: #90A4AE;
   font-size: 24px;
 }
 span.profile-space {
@@ -106,7 +106,7 @@ span.profile-space {
 }
 
 .sns-title {
-  color: #8197a6;
+  color: #90A4AE;
   font-size: 24px;
 }
 span {
@@ -114,11 +114,14 @@ span {
 }
 .fab {
   font-size: 3em;
-  color: #8197a6;
+  color: #90A4AE;
   margin: 0 10px;
 }
 .far {
   font-size: 60px;
   color: #463e44;
+}
+.v-application {
+  padding: 0;
 }
 </style>

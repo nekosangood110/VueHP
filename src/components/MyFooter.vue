@@ -15,7 +15,7 @@ export default {
 
 <style>
 .v-footer {
-  background: linear-gradient(-100deg, #8197A6, #F2D1C9);
+  background: linear-gradient(-100deg, #90A4AE, #FFCDD2);
   margin-top: auto;
   text-align: center;
 }

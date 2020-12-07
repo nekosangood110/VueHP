@@ -127,10 +127,11 @@ h2 {
   letter-spacing: 2px;
   text-align: center;
   font-weight: 200;
-  color: #8197A6;
+  color: #90A4AE;
 }
  p{
   text-align: center;
-  color: #8197A6;
+  color: #90A4AE;
 }
+
 </style>
