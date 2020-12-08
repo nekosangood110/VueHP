@@ -27,37 +27,45 @@
           </v-layout>
           <p style="font-size: 1.1em" class="text-center mt-3">ねこさんbot</p>
 
-
-          <!-- ダイアログここから -->
-          <v-dialog v-model="dialog" hide-overlay  fullscreen max-width="auto">
+          <!-- ダイアログボタン -->
+          <v-dialog v-model="dialog" hide-overlay fullscreen max-width="auto">
             <template v-slot:activator="{ on, attrs }">
+              <v-layout justify-center>
               <v-btn
                 color="blue-grey lighten-2 white--text"
                 dark
                 v-bind="attrs"
                 v-on="on"
+                
               >
                 more
               </v-btn>
+              </v-layout>
+
               <!-- 開いたときの内容 -->
             </template>
             <v-card>
               <v-card-title>ねこさんbot</v-card-title>
               <v-divider></v-divider>
               <!-- ↑タイトル、白線  -->
-
-
-
-              <v-card-text style="height: 300px">
-                <!-- ここからウィンドウの内容  -->
-                <v-card-text>
-                
-                  <img src="@/assets/work-linebot1.gif" />
-                
+              <v-container>
+                <v-card-text style="height: 600px">
+                  <!-- ここからウィンドウの内容  -->
+                  <v-row>
+                    <v-col>
+                      <v-layout>
+                        <img
+                          src="@/assets/work-linebot1.gif"
+                          min-width="600px"
+                          width="300px"
+                        />
+                      </v-layout>
+                    </v-col>
+                  </v-row>
                 </v-card-text>
+              </v-container>
 
-                <!-- closeボタン -->
-              </v-card-text>
+              <!-- closeボタン -->
               <v-divider></v-divider>
               <v-card-actions>
                 <v-btn color="blue-grey lighten-2" text @click="dialog = false">
@@ -67,8 +75,6 @@
             </v-card>
           </v-dialog>
         </v-col>
-
-
 
         <v-col cols="12" sm="6" md="4" lg="4">
           <v-layout justify-center>

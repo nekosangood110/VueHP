@@ -2,9 +2,10 @@
   <v-app>
     <v-card-text
       style="font-size: 2em"
-      class="blue-grey--text text--lighten-2 text-center my-10"
+      class="blue-grey--text text--lighten-2 text-center mt-6"
       >About</v-card-text
     >
+    <v-spacer></v-spacer>
     <v-layout justify-center>
       <img src="@/assets/img1.jpg" />
     </v-layout>
@@ -64,9 +65,6 @@ export default {
 
 <style scoped>
 /* きいてない！ */
-v-app .v-card-text {
-  border-bottom: solid 2px #90a4ae;
-}
 img {
   width: 250px;
   height: 250px;
