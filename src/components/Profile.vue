@@ -1,39 +1,59 @@
 <template>
-  <div class="v-application--wrap">
-    <div class="profile">
-      <h1>About</h1>
-      <div class="img_wrap">
-        <p><img src="@/assets/img1.jpg" /></p>
+  <v-app>
+    <v-card-text
+      style="font-size: 2em"
+      class="blue-grey--text text--lighten-2 text-center my-10"
+      >About</v-card-text
+    >
+    <v-layout justify-center>
+      <img src="@/assets/img1.jpg" />
+    </v-layout>
+
+    <v-card-text
+      style="font-size: 1.5em"
+      class="blue-grey--text text--lighten-2 text-center my-10"
+      >profile</v-card-text
+    >
+    <ul>
+      <li><span class="profile-space">Name:</span> Chikako Ono</li>
+      <li><span class="profile-space">Birthplace:</span> Nara</li>
+      <li><span class="profile-space">Birth:</span> 2001-03-14</li>
+      <li><span class="profile-space">Hobby:</span>Ride a bike, coffee hop</li>
+    </ul>
+    <p style="font-size: 1em" class="text-center mt-10">
+      フロントエンジニア志望です！<br />
+      最近はVueやphotoshopが楽しくてお気に入りです。
+    </p>
+
+    <v-card-text
+      style="font-size: 1.5em"
+      class="blue-grey--text text--lighten-2 text-center my-10"
+      >SNS</v-card-text
+    >
+      <div>
+      <a href="https://twitter.com/?lang=ja" target="_blank"
+        ><i class="fab fa-twitter"></i
+      ></a>
+      <a href="https://github.com/nekosangood110" target="_blank"
+        ><i class="fab fa-github"></i
+      ></a>
       </div>
-      <div class="about">
-        <div class="my-profile">
-          <div class="my-profile-title">profile</div>
-          <ul>
-            <li><span class="profile-space">Name:</span> Chikako Ono</li>
-            <li><span class="profile-space">Birthplace:</span> Nara</li>
-            <li><span class="profile-space">Birth:</span> 2001-03-14</li>
-            <li><span class="profile-space">Hobby:</span>Ride a bike, coffee hop</li>
-          </ul>
-              <p>フロントエンジニア志望です！<br>
-             最近はVueやphotoshopが楽しくてお気に入りです。
-             </p>
-        </div>
-        <div class="sns">
-          <div class="sns-title">SNS</div>
-            <a href="https://twitter.com/?lang=ja" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://github.com/nekosangood110" target="_blank"><i class="fab fa-github"></i></a>
-        </div>
-        <div class="skill">
-          <div class="skill-title">skill</div>
-          <i class="fab fa-html5"></i>
-          <i class="fab fa-css3-alt"></i>
-          <i class="fab fa-sass"></i>
-          <i class="fab fa-js-square"></i>
-          <i class="fab fa-vuejs"></i>
-        </div>
-      </div>
+
+    
+    <v-card-text
+      style="font-size: 1.5em"
+      class="blue-grey--text text--lighten-2 text-center my-10"
+      >Skill</v-card-text
+    >
+    <div>
+      <i class="fab fa-html5"></i>
+      <i class="fab fa-css3-alt"></i>
+      <i class="fab fa-sass"></i>
+      <i class="fab fa-js-square"></i>
+      <i class="fab fa-vuejs"></i>
     </div>
-  </div>
+    
+  </v-app>
 </template>
 
 <script>
@@ -43,85 +63,37 @@ export default {
 </script>
 
 <style scoped>
-@media screen and (min-width:0px){
-  /*0px以上で適用する内容*/
- .v-application--wrap{
-   width: 90%;
-  margin:auto;
-  padding-top:5px;
- }
-}
-
-@media screen and (min-width:300px){
-  /*300px以上で適用する内容*/
-  .v-application--wrap {
-   width: 90%;
-    margin:auto;
-  padding-top:5px;
- }
-}
-
-div {
-  width: 100%;
-}
-h1 {
-  color: #90A4AE;
-  border-bottom: solid 2px #90A4AE;
-  margin: 30px;
-  font-weight: 400;
-}
-.contents {
-  margin-left: 250px;
-}
-.profile {
-  margin-bottom: 20px;
+/* きいてない！ */
+v-app .v-card-text {
+  border-bottom: solid 2px #90a4ae;
 }
 img {
-  margin-left: 50px;
   width: 250px;
   height: 250px;
-  cursor: pointer;
   border-radius: 50%;
 }
 ul {
   list-style: none;
-  margin-bottom: 30px;
+  text-align: center;
 }
-.my-profile-title {
-  color: #90A4AE;
-  font-size: 24px;
-}
-.sns {
-  margin: 20px 0 20px 0;
-}
-.skill {
-  margin-bottom: 80px;
-}
-.skill-title {
-  color: #90A4AE;
-  font-size: 24px;
-}
-span.profile-space {
-  padding-right: 100px;
-}
-
-.sns-title {
-  color: #90A4AE;
-  font-size: 24px;
+.v-application ul,
+.v-application ol {
+  padding-left: 0;
 }
 span {
-  margin: 0 10px;
+  margin: 0 20px;
+}
+div {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+i {
+  padding: 0 8px;
 }
 .fab {
-  font-size: 3em;
-  color: #90A4AE;
-  margin: 0 10px;
-}
-.far {
-  font-size: 60px;
-  color: #463e44;
-}
-.v-application {
-  padding: 0;
+  font-size: 4em;
+  color: #90a4ae;
+  margin: 0 auto;
 }
 </style>
