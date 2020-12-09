@@ -7,8 +7,9 @@
     >
     <v-spacer></v-spacer>
     <v-layout justify-center>
-      <img src="@/assets/img1.jpg" />
+      <img class="profile-photo" src="@/assets/profile1.jpg" />
     </v-layout>
+    
 
     <v-card-text
       style="font-size: 1.5em"
@@ -22,7 +23,7 @@
       <li><span class="profile-space">Hobby:</span>Ride a bike, coffee hop</li>
     </ul>
     <p style="font-size: 1em" class="text-center mt-10">
-      フロントエンジニア志望です！<br />
+      フロントエンドエンジニア志望です！<br />
       最近はVueやphotoshopが楽しくてお気に入りです。
     </p>
 
@@ -33,10 +34,10 @@
     >
       <div>
       <a href="https://twitter.com/?lang=ja" target="_blank"
-        ><i class="fab fa-twitter"></i
+        rel="noopener noreferrer"><i class="fab fa-twitter"></i
       ></a>
       <a href="https://github.com/nekosangood110" target="_blank"
-        ><i class="fab fa-github"></i
+        rel="noopener noreferrer"><i class="fab fa-github"></i
       ></a>
       </div>
 
@@ -60,12 +61,22 @@
 <script>
 export default {
   name: "Profile",
-};
+  props: {
+    x: {}
+  }
+}
 </script>
 
 <style scoped>
-/* きいてない！ */
-img {
+/* SVGアニメーション */
+.glay-star1{
+  width:20px;
+  height: 20px;
+  position: absolute;
+  transform: translate(200px, 100px);
+}
+
+.profile-photo {
   width: 250px;
   height: 250px;
   border-radius: 50%;
@@ -82,7 +93,6 @@ span {
   margin: 0 20px;
 }
 div {
-  width: 100%;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -92,6 +102,5 @@ i {
 .fab {
   font-size: 4em;
   color: #90a4ae;
-  margin: 0 auto;
 }
 </style>
