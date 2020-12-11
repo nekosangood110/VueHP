@@ -1,5 +1,6 @@
 <template>
   <v-app>
+<my-animation></my-animation>
     <v-card-text
       style="font-size: 2em"
       class="blue-grey--text text--lighten-2 text-center mt-6"
@@ -60,22 +61,11 @@
 
 <script>
 export default {
-  name: "Profile",
-  props: {
-    x: {}
-  }
+  name: "Profile"
 }
 </script>
 
 <style scoped>
-/* SVGアニメーション */
-.glay-star1{
-  width:20px;
-  height: 20px;
-  position: absolute;
-  transform: translate(200px, 100px);
-}
-
 .profile-photo {
   width: 250px;
   height: 250px;

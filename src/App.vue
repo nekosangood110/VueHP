@@ -2,19 +2,21 @@
   <div>
     <my-header></my-header>
       <router-view />
+      <my-animation></my-animation>
       <my-footer></my-footer>
-      
   </div>
 </template>
 
 <script>
 import MyHeader from '@/components/MyHeader'
 import MyFooter from '@/components/MyFooter'
+import MyAnimation from '@/components/MyAnimation'
 export default {
   name: "App",
   components: {
     MyHeader,
     MyFooter,
+    MyAnimation
   },
   data() {
     return {
