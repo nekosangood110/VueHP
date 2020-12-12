@@ -55,13 +55,17 @@
       <i class="fab fa-js-square"></i>
       <i class="fab fa-vuejs"></i>
     </div>
-    
+    <my-animation></my-animation>
   </v-app>
 </template>
 
 <script>
+import MyAnimation from '@/components/MyAnimation.vue'
 export default {
-  name: "Profile"
+  name: "Profile",
+  components: {
+    MyAnimation,
+  }
 }
 </script>
 
