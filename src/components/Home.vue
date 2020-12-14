@@ -10,7 +10,7 @@
       />
     </div>
     <div class="top-images">
-      <img src="@/assets/slide-image1.jpg" />
+      <img src="@/assets/home-image.jpg" />
     </div>
     <!-- 作品はここから -->
     <v-card-text
@@ -42,6 +42,7 @@
           <v-layout justify-center>
             <img src="@/assets/work-mysite1.jpg" />
           </v-layout>
+          <site-dialog></site-dialog>
         </v-col>
       </v-row>
     </v-container>
@@ -51,11 +52,13 @@
 <script>
 import LineDialog from "@/components/LineDialog.vue"
 import TodoDialog from "@/components/TodoDialog.vue"
+import SiteDialog from "@/components/SiteDialog.vue"
 export default {
   name: "Home",
   components: {
     LineDialog,
-    TodoDialog
+    TodoDialog,
+    SiteDialog
   },
   data() {
     TodoDialog
@@ -84,12 +87,10 @@ export default {
   font-size: 45px;
   animation: text-in 0.4s cubic-bezier(0.22, 0.15, 0.25, 1.43) 0s backwards;
 }
-/* アニメーションここまで */
+
 
 .top-images {
   text-align: center;
 }
-/* .v-card-text {
-  color: #90a4ae;
-} */
+
 </style>

@@ -4,6 +4,7 @@
     <template v-slot:activator="{ on, attrs }">
       <v-layout justify-center>
         <v-btn
+        class="mt-7"
           color="blue-grey lighten-2 white--text"
           dark
           v-bind="attrs"
@@ -17,7 +18,6 @@
     <v-card>
       <v-card-title>ねこさんbot</v-card-title>
       <v-divider></v-divider>
-      <!-- ↑タイトル、白線  -->
       <v-container>
         <v-card-text style="height: auto">
           <!-- ここからウィンドウの内容  -->

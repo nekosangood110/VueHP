@@ -1,23 +1,27 @@
 <template>
-<img src="@/assets/glay-star1.svg" />
-
-
+<div>
+<img class="glay-star1" src="@/assets/glay-star1.svg" />
+<img class="glay-star2" src="@/assets/glay-star2.svg" />
+<img class="glay-star1" src="@/assets/pink-star1.svg" />
+<img class="glay-star2" src="@/assets/pink-star2.svg" />
+</div>
 </template>
 
 
 
 
 <script>
-export default {
-    name: "Animation"
-}
 </script>
 
 <style>
-/* SVGアニメーション */
-/* .glay-star1{
+.glay-star1{
   height: 18px;
   position: absolute;
-  transform: translate(40px, 80px);
-} */
+  transform: translate(80px, 80px);
+}
+.glay-star2 {
+  height: 18px;
+  position: absolute;
+  transform: translate(10px, 80px);
+}
 </style>
