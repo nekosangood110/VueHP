@@ -23,9 +23,9 @@ export default {
         { title: "profile", path: "/profile" },
         { title: "contact", path: "/contact" },
       ],
-    };
-  },
-};
+    }
+  }
+}
 </script>
 
 <style scoped>
@@ -39,7 +39,7 @@ export default {
     font-size: 20px;
   }
   li {
-    padding-left: 40px;
+    padding-left: 20px;
     font-size: 16px;
   }
 }

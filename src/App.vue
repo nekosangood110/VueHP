@@ -24,14 +24,4 @@ export default {
 </script>
 
 <style>
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  font-family: "Josefin Slab", serif;
-  font-family: "M PLUS 1p", sans-serif;
-}
 </style>
