@@ -1,7 +1,7 @@
 <template>
 <v-app>
     <v-footer>
-        <v-col class="white--text" >&copy; 2020 - {{ new Date().getFullYear() }} chika</v-col>
+        <v-col class="white--text" >&copy;  {{ new Date().getFullYear() }} chika</v-col>
     </v-footer>
   </v-app>
 </template>
