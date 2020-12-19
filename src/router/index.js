@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '@/components/Home'
-import Contact from '@/components/Contact'
-import Profile from '@/components/Profile'
+import Home from '@/components/pages/Home'
+import Contact from '@/components/pages/Contact'
+import Profile from '@/components/pages/Profile'
 // import { component } from 'vue/types/umd'
 
 

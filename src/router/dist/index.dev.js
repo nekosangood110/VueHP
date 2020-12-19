@@ -9,11 +9,11 @@ var _vue = _interopRequireDefault(require("vue"));
 
 var _vueRouter = _interopRequireDefault(require("vue-router"));
 
-var _Home = _interopRequireDefault(require("@/components/Home"));
+var _Home = _interopRequireDefault(require("@/components/pages/Home"));
 
-var _Contact = _interopRequireDefault(require("@/components/Contact"));
+var _Contact = _interopRequireDefault(require("@/components/pages/Contact"));
 
-var _Profile = _interopRequireDefault(require("@/components/Profile"));
+var _Profile = _interopRequireDefault(require("@/components/pages/Profile"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 

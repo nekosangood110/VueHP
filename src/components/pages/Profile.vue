@@ -59,7 +59,7 @@
 </template>
 
 <script>
-import MyAnimation from '@/components/MyAnimation.vue'
+import MyAnimation from '@/components/modules/MyAnimation.vue'
 export default {
   name: "Profile",
   components: {

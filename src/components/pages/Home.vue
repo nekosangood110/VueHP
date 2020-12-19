@@ -50,9 +50,9 @@
 </template>
 
 <script>
-import LineDialog from "@/components/LineDialog.vue"
-import TodoDialog from "@/components/TodoDialog.vue"
-import SiteDialog from "@/components/SiteDialog.vue"
+import LineDialog from "@/components/modules/LineDialog.vue"
+import TodoDialog from "@/components/modules/TodoDialog.vue"
+import SiteDialog from "@/components/modules/SiteDialog.vue"
 export default {
   name: "Home",
   components: {
