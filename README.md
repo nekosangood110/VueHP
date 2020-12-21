@@ -1,24 +1,21 @@
-# vuehp
+<!-- # vuehp
 
-## Project setup
-```
-npm install
-```
+This is an SPA (Single Page Application) that I created by studying Vue.js on my own.
+# Chika's Page(my portfolio):sparkles:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+You can jump to the page [here](https://my-vue-contact.web.app/ "my-vue-contact.web.app") !
 
-### Compiles and minifies for production
-```
-npm run build
-```
+![Chika's site](https://imgur.com/a/vVISEct "Chika's site")
 
-### Lints and fixes files
-```
-npm run lint
-```
+## About
+This is a SPA portfolio site created with Vue.js. Vue Router was used to implement the SPA, and Firebase was used to implement the contact form (email sending function). Vuetify is used as the library.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Language & Technology used
+Vue.js/Vue Router/Vuetify/Firebase
+
+## ingenious
+We designed the site to be eye-catching on the first view by placing text animations.
+
+
+I'm having a lot of fun with Vue.js, so I'd like to keep learning and create more works in the future.
+I would like to thank you for reading this far. Thank you very much.:laughing:
