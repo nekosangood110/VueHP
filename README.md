@@ -1,5 +1,3 @@
- # vuehp
-
 This is an SPA (Single Page Application) that I created by studying Vue.js on my own.
 # Chika's Page(my portfolio):sparkles:
 
