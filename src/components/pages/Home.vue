@@ -9,9 +9,13 @@
         v-text="t"
       />
     </div>
-    <div class="top-images">
+    <v-row justify-center>
+    <v-col cols="12" sm="12" md="12" lg="12">
+    <v-layout justify-center>
       <img src="@/assets/home-image.jpg" />
-    </div>
+    </v-layout>
+    </v-col>
+    </v-row>
     <!-- 作品はここから -->
     <v-card-text
       style="font-size: 2em"

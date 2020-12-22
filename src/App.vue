@@ -1,14 +1,14 @@
 <template>
   <div>
     <my-header></my-header>
-      <router-view />
-      <my-footer></my-footer>
+    <router-view />
+    <my-footer></my-footer>
   </div>
 </template>
 
 <script>
-import MyHeader from '@/components/modules/MyHeader'
-import MyFooter from '@/components/modules/MyFooter'
+import MyHeader from "@/components/modules/MyHeader";
+import MyFooter from "@/components/modules/MyFooter";
 export default {
   name: "App",
   components: {
@@ -16,12 +16,13 @@ export default {
     MyFooter,
   },
   data() {
-    return {
-
-    }
+    return {};
   }
 }
 </script>
 
 <style>
+.v-application {
+  font-family: "Montserrat","Noto Sans JP", "sans-serif" !important;
+}
 </style>
