@@ -1,7 +1,7 @@
 This is an SPA (Single Page Application) that I created by studying Vue.js on my own.
 # Chika's Page(my portfolio):sparkles:
 
-You can jump to the page [here](https://my-vue-contact.web.app/ "my-vue-contact.web.app") !
+You can jump to the page [here](https://chikatto.net "chikatto.net") !
 
 ![Chika's site](https://raw.githubusercontent.com/nekosangood110/VueHP/images/images/md.png)
 
