@@ -22,11 +22,12 @@
           <!-- ここからウィンドウの内容  -->
           <v-row>
             <v-col>
-              <v-layout mb-10>
+              <v-layout my-10>
                 <img
                   src="@/assets/work-todo1.gif"
                   min-width="600px"
-                  width="300px"
+                  height="100%"
+                  width="50%"
                 />
               </v-layout>
               <p>

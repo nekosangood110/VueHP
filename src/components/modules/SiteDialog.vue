@@ -33,7 +33,7 @@
               <p class="font-weight-bold">使用言語</p>
               <p >Vue-cli/Vue-router/Vuetify/Firebase(Functions)</p>
               <p>
-                Vue-routerを使ったSPA(Single Page Application)のポートフォリオです。<br>
+                Vue.jsを使ったSPA(Single Page Application)のポートフォリオです。<br>
                 お問い合わせフォームはFirebaseのfunctionsで構築しています。ライブラリにVuetifyを使用しており、レスポンシブ対応です。SVGアニメーションがお気に入りです！
               </p>
             </v-col>

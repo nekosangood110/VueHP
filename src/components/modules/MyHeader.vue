@@ -34,16 +34,20 @@ export default {
 }
 h1 {
   font-weight: 100;
+  font-size: 20px;
   letter-spacing: 2px;
   color: #ffffff;
+  white-space: nowrap;
 }
 nav {
   margin-left: auto;
+  padding-left: 45px;
 }
 ol {
   list-style: none;
   margin: auto 40px auto  0;
   padding: 10px 0;
+  
 }
 
 li {

@@ -27,7 +27,8 @@
                 <img
                   src="@/assets/work-linebot1.gif"
                   min-width="600px"
-                  width="300px"
+                  height="100%"
+                  width="50%"
                 />
               </v-layout>
               <!-- line追加ボタン -->

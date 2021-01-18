@@ -11,8 +11,11 @@
     </div>
     <v-row justify-center>
     <v-col cols="12" sm="12" md="12" lg="12">
-    <v-layout justify-center>
-      <img src="@/assets/home-image.jpg" />
+    <v-layout justify-center wrap>
+      <img src="@/assets/home-image.jpg" 
+      width="80%"
+      height="auto"
+      />
     </v-layout>
     </v-col>
     </v-row>
