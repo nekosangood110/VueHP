@@ -11,7 +11,7 @@ You can jump to the page [here](https://chikatto.net "chikatto.net") !
 This is a SPA portfolio site created with Vue.js. Vue Router was used to implement the SPA, and Firebase was used to implement the contact form (email sending function). Vuetify is used as the library.
 
 ## Language & Technology used
-Vue.js/Vue Router/Vuetify/Firebase
+Vue.js/Vue Router/Vuetify/Firebase/Node.js
 
 ## ingenious
 We designed the site to be eye-catching on the first view by placing text animations.
